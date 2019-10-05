@@ -3,4 +3,4 @@ The CH376 C++ Library is an implementation of basic functions used to manage the
 ## Chip and Modules
 First is photo of the chip and next is the most common module in the market which is quite cheap to acquire.
 ![Alt text](Ch376_and_Modules/CH376S_IC.jpg?raw=true "CH376")
-![Alt text](Ch376_and_Modules/Module_1?raw=true "Common Module")
+![Alt text](Ch376_and_Modules/Module_1.jpg?raw=true "Common Module")
