@@ -17,4 +17,3 @@ The library maybe used to develop projects based on the C++ language such as the
 v1.0.1 Oct 9, 2019.
 - Supports SPI mode only (Hardware SPI).
 - Minimum of 5 communication lines between MCU and CH376 are required. These are MOSI, MISO, SCK, CS (Chip_Select), EXT_INT (MCU External Interrupt). An additiional line is recommended for reliablity, viz. the BZ (Busy) line. See source code for more instructions on the use of this line.
-- 
