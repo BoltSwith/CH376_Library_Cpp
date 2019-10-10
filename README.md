@@ -14,6 +14,10 @@ The library maybe used to develop projects based on the C++ language such as the
 5. The library is designed to use least amount of RAM without compromising on speed. Minimum RAM and ROM (MCU Flash Memory) requirements are 2kb and 5kb respectively. CH376 SCK (Hardware SPI) was clocked at 4MHz and 125kHz during testing without any recorded flaws. Data rate (SCK frequency) above 4MHz have not been tested at the time of this writing.
 
 ## Versions
+v1.0.2 Oct 10, 2019.
+- fixed the file_Dir_Rename() routine to rename files with single or double character extension.
+- update some functions/routines to generate proper error code when a command fails in the routine.
+
 v1.0.1 Oct 9, 2019.
 - Supports SPI mode only (Hardware SPI).
 - Minimum of 5 communication lines between MCU and CH376 are required. These are MOSI, MISO, SCK, CS (Chip_Select), EXT_INT (MCU External Interrupt). An additiional line is recommended for reliablity, viz. the BZ (Busy) line. See source code and datasheet for more instructions on the use of this line.
