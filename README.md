@@ -22,3 +22,5 @@ v1.0.1 Oct 9, 2019.
 - Supports SPI mode only (Hardware SPI).
 - Minimum of 5 communication lines between MCU and CH376 are required. These are MOSI, MISO, SCK, CS (Chip_Select), EXT_INT (MCU External Interrupt). An additiional line is recommended for reliablity, viz. the BZ (Busy) line. See source code and datasheet for more instructions on the use of this line.
 - Ground the WR# and RD# pins before and after power-up of CH376 to enable SPI mode. See CH376 datasheet for Power Supply circuitry of CH376. 
+- Supports only short name files. File and directory name should not exceed 8 characters. File extension should not exceed 3 characters.
+  File or directory name and file extension characters should all be UPPERCASE. 
